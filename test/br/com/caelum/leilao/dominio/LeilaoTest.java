@@ -1,12 +1,13 @@
 package br.com.caelum.leilao.dominio;
 
-import static br.com.caelum.leilao.dominio.matchers.LeilaoMatcher.temUmLance;
+import static br.com.caelum.leilao.matchers.LeilaoMatcher.temUmLance;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
-import br.com.caelum.leilao.dominio.builders.CriadorDeLeilao;
+
+import br.com.caelum.leilao.builders.CriadorDeLeilao;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe

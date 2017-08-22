@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.dominio.matchers;
+package br.com.caelum.leilao.matchers;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
