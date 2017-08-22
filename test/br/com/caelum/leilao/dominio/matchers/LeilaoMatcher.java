@@ -6,6 +6,11 @@ import org.hamcrest.TypeSafeMatcher;
 import br.com.caelum.leilao.dominio.Lance;
 import br.com.caelum.leilao.dominio.Leilao;
 
+/**
+ * 
+ * @author Jhonata Santos
+ *
+ */
 public class LeilaoMatcher extends TypeSafeMatcher<Leilao> {
 
 	private final Lance lance;
