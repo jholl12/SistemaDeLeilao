@@ -1,10 +1,10 @@
-package br.com.caelum.leilao.desafio;
+package desafio;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.caelum.leilao.desafio.AnoBissexto;
+import desafio.AnoBissexto;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe

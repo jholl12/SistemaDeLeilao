@@ -1,11 +1,11 @@
-package br.com.caelum.leilao.desafio;
+package desafio;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.caelum.leilao.desafio.Palindromo;
+import desafio.Palindromo;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe

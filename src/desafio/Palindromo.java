@@ -1,4 +1,4 @@
-package br.com.caelum.leilao.desafio;
+package desafio;
 
 public class Palindromo {
 	public boolean ehPalindromo(String frase) {

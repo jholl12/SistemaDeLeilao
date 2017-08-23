@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.caelum.leilao.builders.CriadorDeLeilao;
+import br.com.caelum.leilao.builder.CriadorDeLeilao;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe
