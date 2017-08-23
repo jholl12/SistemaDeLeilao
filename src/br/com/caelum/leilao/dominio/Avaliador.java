@@ -24,7 +24,7 @@ public class Avaliador {
 		return this.valorMedio;
 	}
 	
-	public List<Lance> getTresMaiores() {
+	public List<Lance> getTresMaioresLances() {
 		return this.maiores;
 	}
 	

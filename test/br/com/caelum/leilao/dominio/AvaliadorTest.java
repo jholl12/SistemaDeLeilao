@@ -170,10 +170,10 @@ public class AvaliadorTest {
 		this.leiloeiro.avalia(leilao);
 
 		// Parte 3 - Validação - Comparação da saida
-		assertThat(leiloeiro.getTresMaiores().size(), equalTo(3));
-		assertThat(leiloeiro.getTresMaiores().get(0).getValor(), equalTo(850.0));
-		assertThat(leiloeiro.getTresMaiores().get(1).getValor(), equalTo(720.0));
-		assertThat(leiloeiro.getTresMaiores().get(2).getValor(), equalTo(450.0));
+		assertThat(leiloeiro.getTresMaioresLances().size(), equalTo(3));
+		assertThat(leiloeiro.getTresMaioresLances().get(0).getValor(), equalTo(850.0));
+		assertThat(leiloeiro.getTresMaioresLances().get(1).getValor(), equalTo(720.0));
+		assertThat(leiloeiro.getTresMaioresLances().get(2).getValor(), equalTo(450.0));
 	}
 
 	/**
@@ -195,7 +195,7 @@ public class AvaliadorTest {
 		this.leiloeiro.avalia(leilao);
 
 		List<Lance> lances = leilao.getLances();
-		List<Lance> maioresLances = leiloeiro.getTresMaiores();
+		List<Lance> maioresLances = leiloeiro.getTresMaioresLances();
 
 		// Parte 3 - Validação - Comparação da saida
 		assertThat(lances.size(), equalTo(5));
@@ -221,7 +221,7 @@ public class AvaliadorTest {
 		// Parte 2 - Ação - Execução
 		this.leiloeiro.avalia(leilao);
 
-		List<Lance> lances = leiloeiro.getTresMaiores();
+		List<Lance> lances = leiloeiro.getTresMaioresLances();
 
 		// Parte 3 - Validação - Comparação da saida
 		assertThat(lances.size(), equalTo(2));
