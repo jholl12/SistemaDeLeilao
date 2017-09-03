@@ -9,7 +9,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import br.com.caelum.leilao.builder.CriadorDeLeilao;
+import br.com.caelum.leilao.dominio.builder.CriadorDeLeilao;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe
