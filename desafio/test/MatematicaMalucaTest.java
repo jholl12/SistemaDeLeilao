@@ -1,10 +1,10 @@
-package desafio;
+package test;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import desafio.MatematicaMaluca;
+import src.MatematicaMaluca;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe

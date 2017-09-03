@@ -1,11 +1,11 @@
-package desafio;
+package test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import desafio.Palindromo;
+import src.Palindromo;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe

@@ -1,4 +1,4 @@
-package desafio;
+package src;
 
 public class Palindromo {
 	public boolean ehPalindromo(String frase) {
