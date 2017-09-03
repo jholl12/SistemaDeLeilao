@@ -7,7 +7,10 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.caelum.leilao.dominio.builder.CriadorDeLeilao;
+import br.com.caelum.leilao.builder.CriadorDeLeilao;
+import br.com.caelum.leilao.dominio.Lance;
+import br.com.caelum.leilao.dominio.Leilao;
+import br.com.caelum.leilao.dominio.Usuario;
 
 /**
  * Classe responsável por realizar a cobertura de testes de unidade da classe

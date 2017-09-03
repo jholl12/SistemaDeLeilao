@@ -1,7 +1,9 @@
-package br.com.caelum.leilao.dominio;
+package br.com.caelum.leilao.servico;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.caelum.leilao.dominio.Lance;
 
 public class FiltroDeLances {
 
